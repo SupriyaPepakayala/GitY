@@ -49,8 +49,13 @@ public class AmazonWebsite extends BaseTest{
 		 CartPage ctPage= iphonePro.addToCartItem();
 		 CheckOut ckIn=ctPage.cartItems();
 		 ckIn.checkin();
-		 driver.getCurrentUrl();		 
-	 }
+		 driver.getTitle();
+		 System.out.println(driver.getCurrentUrl());
+		 System.out.println(driver.getPageSource());
+		 
+		 }
+	 
+	 
 	 
 	 @Test(groups= {"Purchase"}, retryAnalyzer=Retry.class)
 	 public void errorValidation(String emails, String psswd) throws InterruptedException{
