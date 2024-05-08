@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="shoppingwebsite.TestComponents.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="shoppingwebsite.Tests.AmazonWebsite">
+        <methods>
+          <include name="testApp"/>
+          <include name="launchingApplication"/>
+          <include name="errorValidation"/>
+        </methods>
+      </class> <!-- shoppingwebsite.Tests.AmazonWebsite -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
