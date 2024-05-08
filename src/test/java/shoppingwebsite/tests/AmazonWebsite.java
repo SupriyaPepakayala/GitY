@@ -52,6 +52,7 @@ public class AmazonWebsite extends BaseTest{
 		 driver.getTitle();
 		 System.out.println(driver.getCurrentUrl());
 		 System.out.println(driver.getPageSource());
+		 driver.getCurrentUrl();
 		 
 		 }
 	 
