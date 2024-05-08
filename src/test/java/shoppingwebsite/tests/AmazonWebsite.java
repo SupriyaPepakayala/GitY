@@ -49,7 +49,7 @@ public class AmazonWebsite extends BaseTest{
 		 CartPage ctPage= iphonePro.addToCartItem();
 		 CheckOut ckIn=ctPage.cartItems();
 		 ckIn.checkin();
-		 
+		 driver.getCurrentUrl();		 
 	 }
 	 
 	 @Test(groups= {"Purchase"}, retryAnalyzer=Retry.class)
